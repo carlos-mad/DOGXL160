@@ -1,3 +1,12 @@
+/*
+ * Autor Carlos Izquierdo Gómez
+ *
+ * Esta libreria se desarrollo como complemento al proyecto
+ * TEO de la universidad Carlos 3 de Leganes
+ *
+ * Ultima revisión 17/05/2021
+ */
+
 #include "mbed.h"
 
 void seleccionarColumna(int16_t columna);
@@ -84,9 +93,3 @@ int imprimirNumero(int16_t columna, int16_t pagina, float valor, uint16_t decima
     RETURN: Entero con los bits a uno correspondientes a las posiciones en las
     que se detecta un flanco de subida.
 */
-
-
-
-
-
-
