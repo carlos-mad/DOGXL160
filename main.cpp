@@ -1,3 +1,13 @@
+/*
+ * Autor Carlos Izquierdo Gómez
+ *
+ * Esta libreria se desarrollo como complemento al proyecto
+ * TEO de la universidad Carlos 3 de Leganes
+ * Ultima revisión 17/05/2021
+ */
+ 
+
+
 int16_t  columnaActual=0;
 char Mensaje[20];
 
