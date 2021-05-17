@@ -74,22 +74,22 @@ int imprimirTexto(int16_t columna, int16_t pagina, char text[]);
 /*
     FUNCTION: Imprime el texto a partir de la pagina y la columna seleccionada
         
-    INPUT:  pagina     (numero de la pagina a partir de la cual quiero eliminar).
-            columna     (numero de la columna en la que queremos posicionar el cursor).
+    INPUT:  pagina     (número de la pagina a partir de la cual quiero eliminar).
+            columna     (número de la columna en la que queremos posicionar el cursor).
     OUTPUT: 
-    RETURN: entero con la ultima posicion 
+    RETURN: entero con la ultima posicion de la columna usada
 */
 
 int imprimirNumero(int16_t columna, int16_t pagina, float valor, uint16_t decimales);
 /*
-    FUNCTION: Lee un entero y compara con el valor anterior para detectar 
-    flancos de subida BIT a BIT. Ejemplo:
-        *numant =   0b00000110 (6)
-        num =       0b00001100 (12)
-        return =    0b00001000 (10)
-        
-    INPUT:  num     (variable de la que detectar flanco)
-    OUTPUT: numant  (puntero a la variable que almacena el valor ant de num)
-    RETURN: Entero con los bits a uno correspondientes a las posiciones en las
-    que se detecta un flanco de subida.
+    FUNCTION: Imprime un numero con los decimales especificados a partir de la pagina y columnas
+    seleccionada.
+    
+    INPUT:  pagina     (número de la pagina a partir de la cual quiero eliminar).
+            columna     (número de la columna en la que queremos posicionar el cursor).
+            valor       (número decimal a imprimir en pantalla).
+            decimales   (cantidad de decimales a mostrar).
+    
+    OUTPUT: 
+    RETURN: entero con la ultima posicion de la columna
 */
